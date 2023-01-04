@@ -25,3 +25,5 @@
 1. Имя не должно содержать подряд более трёх цифр, а также начинаться и заканчиваться цифрами, символами подчёркивания или тире.
 
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
+
+[![Build status](https://ci.appveyor.com/api/projects/status/9doqbw154hwahx9f?svg=true)](https://ci.appveyor.com/project/Turovae/regexp-nicknames)
