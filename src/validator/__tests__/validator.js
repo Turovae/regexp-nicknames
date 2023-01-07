@@ -9,13 +9,15 @@ const nameVariants = [
   ['latin letters and allowed characters 3', 'frodo_bag-gins', true],
   ['latin letters and greater then three digits', 'frodo9999baggins', false],
   ['no latin letters', 'Вася', false],
-  ['start digit', '5kinds', false],
+  ['start digit', '5kings', false],
   ['end digit', 'blabla6', false],
   ['start _', '_blabla', false],
   ['end _', 'blabla_', false],
   ['start -', '-blabla', false],
   ['end -', 'blabla-', false],
   ['latin and space', 'frodo baggins', false],
+  ['latin and underlines', 'b_l_a_b_l_a', true],
+  ['latin and $', 'bla$bla', false],
 ];
 
 test.each(nameVariants)(
